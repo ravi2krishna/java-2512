@@ -1,0 +1,81 @@
+4th Sep 2025
+============
+
+App Development 
+
+    -> Backend (Business Logics)
+
+    -> Java : Java is a high-level, general-purpose, memory-safe, object-oriented programming language. It is intended to let programmers write once, run anywhere, meaning that compiled Java code can run on all platforms that support Java without the need to recompile.
+
+    -> Programming Language : Communicate with Computers (Machines)
+
+    -> Human To Human : English, Hindi, Telugu etc
+
+    -> Machines cannot understand English, Hindi, Telugu etc
+
+    -> Machines can understand Machine / Binary Language (010101010001)
+
+        -> 01101010 01100001 01110110 01100001 --> java
+
+        -> Low Level Language
+
+    -> Java is a high-level Language (Application Development)
+
+     -> Java is a general-purpose Language 
+
+        -> Used only for multiple purposes
+
+                -> Java can i build desktop apps -> YES
+                -> Java can i build web apps -> YES
+                -> Java can i build API's -> YES
+
+        -> Domain Specific Languages : Used only for specific purpose 
+            
+            -> SQL (Structured Query Language) is a domain-specific language used to manage data, especially in a relational database management system.
+
+                -> SQL can i build desktop apps -> NO
+                -> SQL can i build web apps -> NO
+                -> SQL can i build API's -> NO
+
+    -> Programming Paradigms 
+
+        -> Paradigm : Way To Solve To Problem / Structure 
+
+            -> Imperative : HOW TO DO (Java)
+
+            -> Declarative : WHAT TO DO (SQL)
+
+    -> Compiled Languages : Java 
+
+        -> Best In Performance (Speed Of App) 
+
+        -> Enterprise 
+        -> Banking (Finance)
+        -> Security (Govt / Defense )
+
+    -> Interpreted Languages : Python
+
+        -> Low In Performance
+
+            -> Data Science (AI / ML / DL)
+            -> Data Analytics 
+            -> Scripting 
+
+        -> Very Good Proto Type Language (Research)
+
+        -> Speed Of Development 
+
+
+-> RoadMap 
+
+    -> Core Java (Language Fundamentals) (No Projects) (11 AM)
+
+        -> Front End (HTML + CSS + JS + REACT) - Parallel ()
+
+    -> Advance Java - Projects
+        -> Frameworks 
+            -> Collections Framework
+            -> Database (SQL + JDBC)
+            -> Web Apps (Spring + Spring Boot)
+    
+    -> Cloud & DevOps - Deployment 
