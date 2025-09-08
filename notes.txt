@@ -136,3 +136,46 @@ App Development
 
 
             -> Integrate Git, GitHub & VS Code
+
+8th Sep 2025
+============
+
+    -> Install Java 
+
+        -> java --version 
+
+        -> Download From : https://www.oracle.com/java/technologies/downloads/
+
+            -> LTS(Long Term Support) Version - 21 (JDK - Java Development Kit)
+        
+    -> Install IDE 
+
+        -> Visual Studio Code - VS Code (Writing Code)
+
+        -> https://code.visualstudio.com/download
+    
+    -> Install Git (Tracking Code)
+
+        -> https://code.visualstudio.com/download
+    
+    -> Create GitHub Account
+
+        -> http://github.com/
+
+        -> Create Repository (Project) : Remote Repository
+
+            -> Add README (first commit)
+
+            -> Cloned Repository
+
+            -> Local System (Local Repository)
+
+            -> Register Developer Details (Using Git Bash)
+
+                -> From Start Menu (GitBash)
+
+                -> git config --global user.name github_user_id
+
+                -> git config --global user.email github_email_id
+            
+            -> Start Writing Code & Track Code & Commit Code & Push Code
