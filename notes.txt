@@ -79,3 +79,60 @@ App Development
             -> Web Apps (Spring + Spring Boot)
     
     -> Cloud & DevOps - Deployment 
+
+5th Sep 2025
+============
+
+    -> Hardware Spec:
+
+        -> i5 / i3 processor 
+        -> 8 GB RAM 
+        -> 500 GB HDD
+
+    -> Softwares:
+
+        -> Install Java Development Kit (JDK) -- Runtime Setup (Environment Setup)
+        
+        -> IDE : Integrated Development Environment
+
+            -> Writing Code IDE
+            -> Visual Studio Code (VS Code)
+            
+        -> Version Control Systems (VCS)
+
+            -> Tracking Project Code (web site files, programs, docs etc)
+
+            -> Git 
+
+                -> Git is client software, i.e installed in developer laptop
+
+            -> GitHub 
+
+                -> Github is a platform offered as a service, to store source code
+
+                -> Every developer will create an account on Github (github.com)
+
+                -> Project : Repository (Remote Repository)
+
+                -> Cloning : Make a identical copy 
+
+                    -> A developer will clone Remote Repository using Git client 
+
+                    -> Where we cloned ? 
+
+                        -> In side developer laptop to some path/location (downloads, desktop etc)
+                    
+                    -> Project : Repository In Laptop (Local Repository)
+
+                    -> As a developer --> Task for building employee salary sorting 
+
+                        -> Start writing code inside Local Repository (laptop)
+
+                            -> Complex Apps (Lots of Files i.e Code)
+
+                                -> not_working_code (Working Area)
+                                -> partially_working_code (Staging Area)
+                                -> working_code (Local Area)
+
+
+            -> Integrate Git, GitHub & VS Code
