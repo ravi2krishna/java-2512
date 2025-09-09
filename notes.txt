@@ -179,3 +179,112 @@ App Development
                 -> git config --global user.email github_email_id
             
             -> Start Writing Code & Track Code & Commit Code & Push Code
+
+9th Sep 2025
+============
+
+    -> Write Code : Instructing what task to perform 
+    
+    -> Compilation : Convert Source Code To Intermediate Byte Code (.class file) (It will verify Syntax)
+
+        -> Syntax : Rules / Guidelines 
+
+            -> Every Java File must start with (class, interface, enum, or record expected)
+
+                -> class is must for beginner level
+                -> proper method declaration should be given (main method is starting point of a program) 
+                -> main method declaration/signature :
+                    public static void main(String [] args) {
+
+                    } 
+
+                    -> public : access modifier (visibility control)
+                    -> static : keyword that says no need of object to perform operation 
+                    -> void : keyword that says we will not return anything (void means nothing)
+                    -> main : method name 
+                    -> String : data type for text kind of data 
+                    -> [] : Array data 
+                    -> args : arguments 
+
+                -> ; indicates end of statement 
+
+                -> text data in java is represented using "text"
+
+                -> cannot find symbol : print
+
+                -> NOTE : You want to print in java then use following Syntax
+                            System.out.println("Welcome")
+
+
+        -> javac (Java Compiler) : utility / tool which is part of JDK installation
+
+        -> To peform Compilation : javac App.java 
+
+            -> App.java 
+
+                print(Welcome)
+
+            -> After Compilation : App.class (Byte Code)
+
+                -> error: class, interface, enum, or record expected
+
+                    class Hello {
+                        print(Welcome)
+                    }
+
+                ->  error: invalid method declaration
+
+                    class Hello {
+                        public static void main(String [] args) {
+                            print(Welcome)
+                        }
+                    }
+
+                ->  error: error: ';' expected
+
+                    class Hello {
+                        public static void main(String [] args) {
+                            print(Welcome);
+                        }
+                    }
+
+                -> error: cannot find symbol
+                            print(Welcome);
+                                ^
+                    symbol:   variable Welcome
+                
+                -> Print data of type text 
+
+                    -> text data in java is represented using "text"
+
+                    class Hello {
+                        public static void main(String [] args) {
+                            print("Welcome");
+                        }
+                    }
+                
+                -> error: cannot find symbol
+                        print
+
+                        class Hello {
+                            public static void main(String [] args) {
+                                System.out.println("Welcome");
+                            }
+                        }
+
+            -> NOTE : Success (output is Hello.class file)
+
+                -> The file is not displayed in the text editor 
+                because it is either binary or uses an unsupported text encoding.
+
+            -> java(jvm java virtual machine will be invoked) is the command we use to interpret byte code
+
+                -> Syntax : java ClassName 
+
+        -> Any Java Programming
+
+                                                            javac        no issues
+            -> App.java (Source Code / Human Readable) -> Comiplation -> App.class -> JVM -> Machine (10101)
+
+        -> Java Slogan : Write Once Run Anywhere (WORA)
+
