@@ -288,3 +288,33 @@ App Development
 
         -> Java Slogan : Write Once Run Anywhere (WORA)
 
+10th Sep 2025
+=============
+
+-> JVM - JRE - JDK
+
+    -> JVM : Java Virtual Machine 
+
+        -> Virtual Machine : Logical Machine inside a physical machine
+
+        -> Role : Convert Byte Code To Machine Code 
+
+    -> JRE : Java Runtime Environment 
+
+        -> Runtime : Provide required infrstructure to operate the programs
+
+        -> JRE it includes JVM
+
+        -> JRE is needed to run java applications (so no javac)
+        
+        -> NOTE : End User needs JRE to run the Java Application
+
+    -> JDK : Java Development Kit
+
+        -> Provides Tools Needed for Application Development (javac & java)
+
+        -> As a developer you'll be installing JDK
+
+        -> JDK includes JRE also JVM as part of JRE 
+
+        -> JDK : Allows Developers to Write Code, Compile Code & Run Code
