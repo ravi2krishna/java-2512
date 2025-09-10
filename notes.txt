@@ -318,3 +318,73 @@ App Development
         -> JDK includes JRE also JVM as part of JRE 
 
         -> JDK : Allows Developers to Write Code, Compile Code & Run Code
+
+
+-> Variables : A variable is name of memory(RAM) location, which is used to store data
+
+    -> Variables Allow you to
+
+        -> Assign Data (Value)
+        -> Retrieve Data
+        -> Manipulate Data (If Required)
+
+    -> Syntax 
+
+        datatype variable_name = value;
+
+        datatype -> classification of data (numbers, decimals, text etc)
+        variable_name -> label (like box example)
+        = -> assignment operator
+        value -> 1000(price), 3.5(rating), "Nike"(brand)
+
+    -> NOTE : // used for comment, this line will be ignored
+
+    -> If you want to store any data, defining data type is must and also 
+        datatype should be appropriate type based on value being stored
+
+        -> if you have whole numbers, then datatype is int 
+        -> if you have decimal numbers, then datatype is double
+        -> if you have text data, then datatype is String
+            -> Strings should be enclosed in "value"
+
+    
+-> Data Type : Datatype inside java define what kind of value a variable can hold
+
+    -> Classification Of Datatype
+
+        -> Primitive Data Types (Simple) (Predefined)
+
+            -> Most Basic Type Of Data already prebuilt in java
+
+            -> Java has 8 Primitive Data Types
+
+                -> byte : stores integers from -128 to 127 [ Size : 1 Byte] 
+                -> short : stores integers from -32768 to 32767 [ Size : 2 Bytes]
+                -> int : stores integers from -2^31 to 2^31-1 [ Size : 4 Bytes]
+                        -2,147,483,648 to 2,147,483,647
+                -> long : stores integers from [ Size : 8 Bytes]
+                        -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+
+                -> float : stores single precision decimal numbers [ Size : 4 Bytes]
+                            1.5, 3.5, 10.0 etc
+                -> double : stores double precision decimal numbers [ Size : 8 Bytes]
+                            299792458.0000000, 3.14595860669   
+
+                -> char : store sing;e character [ Size : 2 Bytes]
+                            'a' '$'
+                
+                -> boolean : stores either true or false [ Size : 1 Byte]
+
+        -> Non-Primitive Data Types (Complex) (User defined)
+
+            -> String : Complex data type (prebuilt)
+            -> Arrays : Complex data type (prebuilt)
+
+            -> Student : Complex data type (User defined)
+
+
+
+
+
+
+
