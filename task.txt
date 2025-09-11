@@ -1,0 +1,25 @@
+# Student Management System
+
+-> Store student information
+    ID 
+    Name 
+    Age 
+    Scores for quiz, assignment, and exam
+    Attendance percentage
+
+-> Calculate
+    Total Score 
+    Average Score
+
+-> Determine
+    -> Student passed or not (Passed means average score above 75)
+
+-> Simulate Daily Attendance
+    -> Increase Attendance By One day
+
+-> Awarded 
+    -> Average Score 80 or above
+    -> Attendance above 75
+
+-> Display Results
+    
