@@ -382,8 +382,90 @@ App Development
 
             -> Student : Complex data type (User defined)
 
+11th Sep 2025
+=============
+
+    -> Output 
+
+    -> Concatenation 
+
+        -> Strings ( joining multiple strings) we use + operator 
+        -> Strings with other data types 
+        
+-> Manipulate Data (If Required)
+
+-> Operators 
+
+    -> Special Symbols, perform operations on Variables and values
+
+    -> Operators Classification
+
+        -> Arithmetic Operators
+
+            -> Used to perform Mathematical Calculations
+
+                -> + - * / % 
+            
+        -> Increment / Decrement Operators  
+            -> Used in Looping Statements
+            -> Update(increase) a value by 1 called as Increment ++
+            -> Update(decrease) a value by 1 called as Decrement --
+
+        -> Compound Assignment Operators
+
+            -> = Assignment Operator
+
+            -> Combining Arithmetic and Assignment
+            -> Used for concise code (short hand code)
+
+            -> x = 10
+            -> x = x + 5 -> 15
+
+            -> x = 10
+            -> x+= 5 (x = x + 5 )
+        
+        -> Relational / Comparison Operators
+
+            -> Used To Compare values
+            -> Result will be boolean (true/false)
+
+                -> == (equality)
+                -> != (not equal)
+                -> > 
+                -> <
+                -> >=
+                -> <=
+        
+        -> Logical Operators
+
+            -> Used to combine multiple conditions 
+            -> Result will be boolean (true/false)
+
+                -> && (AND) : returns true, when both conditions are true
+                -> || (OR) : returns true, when either of conditions is true 
+                -> ! (NOT) : negates (true -> false or false -> true)
+
+                X       Y         X && Y    X || Y    ! X    ! Y
+                T       T           T         T         F       F
+                T       F           F         T         F       T
+                F       T           F         T         T       F
+                F       F           F         F         T       T     
 
 
+        -> Bitwise Operators
+
+            -> Used is low level programming (01010101)
+
+                -> & (AND) : when both bits are 1, then result is 1
+                    
+                    1       1   -   1
+                    1       0   -   0
+                    0       1   -   0
+                    0       0   -   0
+
+                    
+                -> | (OR) : either one of bit is 1, then result is 1
+                -> etc
 
 
 
