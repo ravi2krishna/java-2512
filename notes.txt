@@ -490,9 +490,53 @@ App Development
 
         -> if statement : runs block of code if the condition is true
 
+            if (condition is true) {
+                statements
+            }
+
         -> if-else statement : runs one block of code if condition is true, and run another
             block of code if condition is false
 
+                if (condition is true) {
+                    statements
+                } else {
+                    statements
+                }
+            
+            -> NOTE : Ternary operator / conditional operator, allows to write
+            concise form of if-else 
+
+                -> Syntax : variable = (condition) ? value_if_true:value_if_false
+
+                -> Use when assigning a value to variable based on condition 
+
         -> else if ladder : used when you have multiple conditions to check
 
+                if (condition is true) {
+                    statements
+                } else if (condition is true) {
+                    statements
+                } else if (condition is true) {
+                    statements
+                } else if (condition is true) {
+                    statements
+                } else {
+                    statements
+                }
+
         -> switch statement : alternative to if-else with multiple conditions 
+
+            switch(expression) {
+                case value1:
+                    // statement
+                    break;
+                case value2:
+                    // Statements
+                    break;
+                    .
+                    .
+                    .
+                default:
+                    // Statements
+                    break;
+            }
