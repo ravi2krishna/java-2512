@@ -467,6 +467,32 @@ App Development
                 -> | (OR) : either one of bit is 1, then result is 1
                 -> etc
 
+12th Sep 2025
+=============
 
+-> Install Extension : Extension Pack for Java
 
+    -> Folder Structure can be achieved using packages 
 
+-> Control Structures / Statements  
+
+    -> In Java, control Statements helps you control the flow of execution 
+
+    -> Control Structures Categories 
+
+        -> Conditional Statements (Decision Making Statements)
+
+        -> Looping Statements (Iteration Statements)
+
+        -> Branching Statements (Jump Statements) 
+
+    -> Conditional Statements 
+
+        -> if statement : runs block of code if the condition is true
+
+        -> if-else statement : runs one block of code if condition is true, and run another
+            block of code if condition is false
+
+        -> else if ladder : used when you have multiple conditions to check
+
+        -> switch statement : alternative to if-else with multiple conditions 
