@@ -1,4 +1,4 @@
-# Tution Fee Calculation
+# Tution Fee Calculation (Variables, Data Types, Operators, Conditionals)
 
 Student's grade level (1-12) 
 Base tuition fee 
