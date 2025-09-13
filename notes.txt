@@ -540,3 +540,20 @@ App Development
                     // Statements
                     break;
             }
+
+13th Sep 2025
+=============
+
+-> Scanner in java is part of java.util (common utilities) package(collection of related classes)
+
+-> Scanner class will help in reading input 
+
+-> Scanner class has inbuilt methods 
+
+    -> nextInt() : reads integer values
+    -> nextDouble() : reads decimal values
+    -> next() : reads next word (string)
+    -> nextLine() : reads entire line (string)
+    -> etc 
+
+-> Nested Conditionals : Conditional inside Conditionals
