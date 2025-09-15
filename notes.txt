@@ -557,3 +557,43 @@ App Development
     -> etc 
 
 -> Nested Conditionals : Conditional inside Conditionals
+
+
+15th Sep 2025
+=============
+
+-> Looping Statements (Iteration Statements)
+
+    -> Looping statements are used to execute a block of code repeatedly, based on condition
+
+    -> Repetition, Automation etc
+
+    -> Looping Types:
+
+        -> for loop : used when you know number of Iterations / Repetitions in advance
+
+            for (init;condition;Increment/Decrement) {
+                statements
+            }
+
+        -> while loop : used when you don't know number of Iterations / Repetitions in advance 
+
+            int count = 1;
+            while (count <=5) {
+                System.out.println(count); 
+                count++;
+            }
+
+        -> do while loop : similar to while, but runs the code at least once, before checking the condition     
+
+        -> Nested Loops : Loops inside Loops
+
+            -> Table : rows & columns 
+            
+                -> 
+
+    -> Branching Statements (Jump Statements) 
+
+        -> break : used inside loops, to terminate (immediately exit) (already used in switch-case)
+        -> continue : used to skip current iteration
+        -> return : used to return a value
