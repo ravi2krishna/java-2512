@@ -597,3 +597,149 @@ App Development
         -> break : used inside loops, to terminate (immediately exit) (already used in switch-case)
         -> continue : used to skip current iteration
         -> return : used to return a value
+
+16th Sep 2025
+=============
+
+-> OOPS 
+
+    -> Object Oriented Programming 
+
+    -> OOPS : We Structure Programs using Data and Behavior (Objects)
+
+    -> To work with OOPS Style we need an understanding of
+
+        -> Classes
+
+        -> Objects 
+
+        -> Methods 
+
+        -> Inheritance 
+
+        -> Encapsulation 
+
+        -> Abstraction 
+
+        -> Polymorphism 
+
+-> Any thing can in real world can be considered as Object
+
+    -> Laptop 
+    -> TV 
+    -> Phone 
+    -> Pen 
+    -> etc 
+
+-> Every Object has Data and Behavior (Objects)
+
+    -> Laptop 
+
+        -> Data (characteristics) (has)
+
+            -> Laptop Brand = String
+            -> Laptop Price = double 
+            -> Laptop Weight = double / int 
+            -> Laptop 4k Display = boolean 
+            -> etc
+
+        -> Behavior (actions) (do)
+
+            -> Laptop can play video 
+            -> Laptop can play audio
+            -> Laptop can read file
+            -> Laptop can take snap
+            -> etc 
+
+
+-> Class 
+
+    -> Class is a blueprint for creating Objects 
+
+    -> Class will have What Data (characteristics - variables) and Behavior (actions - methods)
+
+    -> Laptop (Class)
+
+            -> Apple Object
+                -> Laptop Brand = Apple
+                -> Laptop Price = 1000000 
+                -> Laptop Weight = 1.2
+                -> Laptop 4k Display = true 
+                -> etc
+
+                -> Apple Laptop can play video (4k)
+                -> Apple Laptop can play audio (25watts)
+                -> Apple Laptop can read file (in 2 sec)
+                -> Apple Laptop can take snap (12MP)
+                -> etc 
+
+            -> Dell Object
+                -> Laptop Brand = Dell
+                -> Laptop Price = 65000 
+                -> Laptop Weight = 2.5
+                -> Laptop 4k Display = false 
+                -> etc
+
+                -> Dell Laptop can play video (1080p)
+                -> Dell Laptop can play audio (10watts)
+                -> Dell Laptop can read file (in 5 sec)
+                -> Dell Laptop can take snap (5MP)
+                -> etc
+
+        -> Behavior (actions) (do)
+
+    
+-> Methods 
+
+    -> Behavior (actions)
+
+    -> A method is block of code that performs some task 
+
+
+-> Variables 
+
+    -> represents data (memory location)
+
+    -> Types Of Variables 
+
+        -> Instance Variables
+
+            -> Created inside the class and outside the method, without static keyword
+
+            -> Instance : Object of an class 
+
+            -> Instance Variables : Variables associated with objects 
+
+            -> Memory is allocated when object is created
+
+            -> Can have default values, if not initialized
+
+            -> Store in Heap Memory / Area
+
+
+        -> Local Variables
+
+            -> Created inside the methods and blocks / constructors 
+
+            -> Used for temporary calculations 
+
+            -> Once execution is completed, value become obsolete 
+
+            -> Variables should be declared and initialized
+
+        -> Static Variables (Global / Class)
+
+            -> Created inside the class and outside the method, with static keyword
+
+            -> Static Variables belongs to class not objects 
+
+            -> Used for static/fixed values (common data)
+
+            -> Variables should be declared and initialized
+
+            -> To access static variables we use Classname.variable
+
+    Type        Declared            BelongsTo       Memory          DefaultValue
+    local       method/block        method/block    Stack           Must initialize
+    instance    class(no static)    Object          Heap            Yes 
+    static      class(static)       Class           MethodArea      Yes 
