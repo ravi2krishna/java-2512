@@ -743,3 +743,54 @@ App Development
     local       method/block        method/block    Stack           Must initialize
     instance    class(no static)    Object          Heap            Yes 
     static      class(static)       Class           MethodArea      Yes 
+
+
+17th Sep 2025
+=============
+
+-> Methods : Task / Action we need methods
+
+-> Methods have signature 
+
+    -> Simple 
+
+        accessModifier returnType methodName ParameterList 
+        {
+            // method body
+        }
+
+    -> Complex 
+
+        accessModifier static/non-static returnType methodName ParameterList throws Exceptions
+        {
+            // method body
+        }
+
+
+-> Constructors
+
+    -> Method : Block of code that Performs a task 
+
+    -> Constructor : Block of code that initialize default values (special task)
+
+        -> Constructor is a special method that is automatically called, when object is created
+
+    -> Normal Methods (instance methods) what we learnt cannot be automatically called, we need to call them 
+
+        -> create object 
+        -> call method
+
+    -> In constructors, when we create object automatically constructor is called
+
+    -> Constructors are Mainly used for 
+
+        -> initialize default values
+        -> set start up value (perform start up operations)
+
+    -> NOTE :
+
+        -> Constructors name should always be class name only, unlike methods 
+
+        -> Constructor will not have return type 
+
+        -> Automatically invoked, unlike methods 
