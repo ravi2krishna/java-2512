@@ -766,6 +766,8 @@ App Development
             // method body
         }
 
+19th Sep 2025
+=============
 
 -> Constructors
 
@@ -794,3 +796,37 @@ App Development
         -> Constructor will not have return type 
 
         -> Automatically invoked, unlike methods 
+
+    -> Types Of Constructors
+
+        -> Implicit / Default Constructors
+
+            -> Used to set all objects with same values 
+
+        -> Explicit / Parameterized Constructors
+
+            -> Used to set different objects with different values 
+
+            -> Constructor Overloading (Polymorphism)
+
+
+    -> this 
+
+        -> this is a keyword, that refers to current instance 
+
+        -> to avoid ambiguity, between variables and Parameters 
+
+        -> to distinguish between variables and Parameters with same name use this keyword
+
+    -> Constructor Overloading
+
+        -> Constructor Overloading in java is a concept where you define 
+            multiple Constructors with same name and different Parameters
+
+        -> Based on 
+
+            -> number of parameters
+            -> types of parameters
+            -> order of parameters
+
+            -> initialization may change  or logic may change
