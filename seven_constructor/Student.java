@@ -1,0 +1,115 @@
+package seven_constructor;
+
+import java.util.Scanner;
+
+public class Student {
+
+
+    // instance data 
+    int studentID;
+    String studentName;
+    int totalSessionsAttended;
+    int attendanceCredits;
+    int performanceCredits;
+    int finalCredits;
+    int tarinerRating;
+    int studentMobileNumber;
+    int studentAge;
+
+    // we ca use constructor to initialize data 
+    public Student(){
+        System.out.println("Default Called");
+    }
+
+    // hover
+    // public Student(int studentID, String studentName){
+    //     this.studentID = studentID;
+    //     this.studentName = studentName;
+    // }
+
+    // click
+    public Student(int studentID, String studentName, int studentAge, int studentMobileNumber){
+        this.studentID = studentID;
+        this.studentName = studentName;
+        this.studentAge = studentAge;
+        this.studentMobileNumber = studentMobileNumber;
+    }
+
+    // hover
+    public Student(int studentID, String studentName) {
+        // this(); // default called
+        this(101, "Ravi", 20, 80980);
+    }
+
+
+    // Common Scanner 
+    Scanner sc = new Scanner(System.in);
+
+    // Display Basic Student Info (hover)
+    public void studentInfo() {
+        System.out.println("=======Basic Student Information=======");
+        System.out.println("Student ID: "+studentID);
+        System.out.println("Student Name: "+studentName);
+    }
+
+    // Display Complete Info (click)
+    public void studentCompleteInfo() {
+        System.out.println("=======Basic Complete Information=======");
+        System.out.println("Student ID: "+studentID);
+        System.out.println("Student Name: "+studentName);
+        System.out.println("Student Age: "+studentAge);
+        System.out.println("Student Contact: "+studentMobileNumber);
+
+    }
+
+    // Calculate Attendance credits
+    public int sessionsCredits() {
+        System.out.println("Enter Total Sessions Attended: ");
+        totalSessionsAttended = sc.nextInt();
+        if (totalSessionsAttended>=30) {
+            return attendanceCredits = attendanceCredits+5;
+        } else if (totalSessionsAttended>=20) {
+            return attendanceCredits = attendanceCredits+3;
+        } else {
+            return attendanceCredits = 0;
+        }
+    }
+
+
+    // Calculate Performance credits
+    public int scoreCredits(int score){
+        if (score>=85) {
+            return performanceCredits = performanceCredits+5;
+        } else if (score>=60) {
+            return performanceCredits = performanceCredits+3;
+        } else {
+            return performanceCredits = 0;
+        }
+    }
+  
+   // Calculate Achievements
+    public void achievementStatus(){
+        finalCredits = scoreCredits(90)+sessionsCredits();
+        if (finalCredits>=10) {
+            System.out.println("**** A ****");
+        } else if (finalCredits>=8) {
+            System.out.println("**** B ****");
+        } else {
+            System.out.println("You Need To IMPROVE");
+        }
+    }
+
+   // Calculate Trainer Rating
+    public int trainerRatings(){
+        System.out.println("Enter Trainer Rating: 1-5");
+        tarinerRating = sc.nextInt();
+        if (tarinerRating>=5) {
+            // set bonus as 5000
+            return 5000;
+        } else {
+            // No bonus
+            return 0;
+        }
+    }
+
+}
