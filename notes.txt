@@ -871,3 +871,32 @@ App Development
 
                 datatype [][] variable_name = new datatype[size][size];
                 datatype [][][] variable_name = new datatype[size][size][size];
+
+24th Sep 2025
+=============
+
+    -> Continued from the previous Application,
+
+    -> Take inputs for 5 Subjects
+
+    -> Based on the above Subjects ==> Calculate scoreCredits
+
+    -> Strings 
+
+        -> A string is a collection or sequence of characters 
+
+        -> Strings are non-primitive type of data 
+
+        -> Strings are special datatype in java 
+
+            -> Strings are handled in different way compared to other classes
+
+        -> String Memory Management 
+
+            -> string memory pool is a place where same strings will be allocated 
+            with same memory address 
+
+        -> String Methods 
+
+
+
