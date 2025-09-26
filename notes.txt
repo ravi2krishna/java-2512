@@ -907,4 +907,33 @@ App Development
 
         -> String class provides a rich set of methods to work with strings type of data 
 
-        -> 
+26th Sep 2025
+=============
+    
+    -> String Immutability 
+
+        -> Strings cannot be changed once created (fixed)
+
+        -> Strings are constant; their values cannot be changed after they are created.
+
+    -> Say we have string, when we perform any operation on Strings say like concat(), then
+        it results in creation of new objects 
+
+    -> This Approach leads to performance issues, when making lot of modifications on strings
+
+    -> To overcome this, Java has provided following classes to handle Mutable Strings
+
+        -> StringBuffer (Thread Safe)
+
+        -> StringBuilder(Not Thread Safe)
+
+    -> NOTE : 
+
+        -> Strings : Like Pen and Paper
+        -> StringBuffer & StringBuilder : Like White Board & Marker 
+
+    -> Upgrade Previous LMS App with CourseFee Calculation
+
+        -> Take Base CourseFee 
+        -> Take COUPON (PROMO) give 5000 discount 
+        -> Calculate Actual Fee To Pay After Discount 

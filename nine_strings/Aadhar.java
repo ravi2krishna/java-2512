@@ -31,6 +31,11 @@ public class Aadhar {
         } else {
             System.out.println("Aadhar "+aadhar + " is not valid");
         }
-        
+
+        // String Immutability 
+        String str = "hell"; // hello
+        System.out.println(System.identityHashCode(str));
+        System.out.println(System.identityHashCode(str.concat("o")));
+        System.out.println(System.identityHashCode(str));
     }
 }
