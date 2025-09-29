@@ -937,3 +937,70 @@ App Development
         -> Take Base CourseFee 
         -> Take COUPON (PROMO) give 5000 discount 
         -> Calculate Actual Fee To Pay After Discount 
+
+29th Sep 2025
+=============
+
+    -> Local Variables
+
+    -> Static Variables 
+
+    -> Instance Variables 
+
+    -> Static Methods
+
+    -> Static Blocks
+
+        -> used to initialize static variables
+
+    -> Instance Methods 
+
+    -> Instance Blocks
+
+
+    -> NOTE : How can we allocate memory to a java program ?
+
+        -> If memory is not allocated, we cannot run programs 
+
+            -> using new keyword (creating an object)
+
+            -> using static keyword (without creating object)
+
+    -> Assume Main is not static 
+
+        -> To Start Program Execution 
+
+        -> We need entry point i.e main method 
+
+        -> Main is not static 
+
+        -> Object needs to be created first 
+
+        -> But to create the object, java needs to execute program (begins a main)
+
+        -> Which again requires the object, this leads to Circular Dependency Problem 
+
+    -> To overcome above Circular Dependency Problem, java came up with static keyword 
+
+
+    -> Class Loader Subsystem 
+
+        -> First will write .java file 
+        -> We compile then we get .class file 
+        -> The .class file is loaded into Class Loader Subsystem 
+        -> Then class loader Subsystem, will look for static fields(variables, methods, blocks) are present
+        if present then immediately in method area, a memory block will be allocated (only once memory allocated)
+        -> Then class loader will look for Object Creation(new keyword), if present then 
+        immediately in heap area, a memory block will be allocated (for every object memory is allocated)
+
+    -> Object Created
+
+        Static Block Executed
+        Main Method Executed
+        Instance Block Executed
+        Constructor Executed
+
+    -> No Object Created
+
+        Static Block Executed
+        Main Method Executed
