@@ -1011,4 +1011,37 @@ App Development
 
     -> LMS with Static 
 
-    
+    -> OOPS Principals 
+
+        -> Inheritance
+
+            -> Establishing relationship between Classes, so that we can achieve REUSABILITY 
+
+        -> Encapsulation 
+
+            -> Hiding Data 
+
+            -> Encapsulation means binding Data & Behavior together, we use Class 
+
+            -> Class Encapsulates Data & Behavior
+
+        -> Abstraction
+
+            -> Hiding Implementation (Internal Details)
+
+            -> Show only essential features required 
+
+        -> Polymorphism 
+
+            -> A Single Entity, Exhibit Multiple Forms 
+
+
+-> Inheritance
+
+    -> Inheritance means passing genetic traits from parents to their children 
+
+    -> Inheritance allows once class to inherit properties and methods from another class 
+
+    -> Class which inherits is called CHILD CLASS
+
+    -> Class that passes traits is called PARENT CLASS
