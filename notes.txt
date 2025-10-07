@@ -1083,3 +1083,18 @@ App Development
             -> Combination of at least two types of Inheritance is called Hybrid
 
             -> When Working with interface we can extend another interface, but you cannot implements interface
+
+7th Oct 2025
+=============
+
+    -> In Our LMS App We currently have Student, Trainer Entities
+
+    -> In Future we might add Mentor, VideoAdmin, SuperAdmin 
+
+    -> Keeping REUSABILITY in context, will add a Common Entity For all above 
+
+        -> Person Class - Common Entity
+
+    -> super keyword 
+
+        -> allows you to access parent class attributes inside child class 
