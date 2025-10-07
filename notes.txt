@@ -1098,3 +1098,26 @@ App Development
     -> super keyword 
 
         -> allows you to access parent class attributes inside child class 
+
+    
+    -> Encapsulation
+
+        -> Encapsulation is an object-oriented programming (OOP) concept that involves 
+        bundling data (attributes) and the methods (functions) that operate on that data 
+        into a single unit, called a class.
+
+        -> Data Hiding 
+
+            -> Access Modifiers 
+
+                -> Public 
+
+                -> Private 
+
+                -> Protected 
+
+                -> Default
+
+            -> Above Applies for all entities in java like variables, methods etc 
+
+            -> NOTE : Only On Top Level Classes we can use, only public and default 
