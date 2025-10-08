@@ -1121,3 +1121,58 @@ App Development
             -> Above Applies for all entities in java like variables, methods etc 
 
             -> NOTE : Only On Top Level Classes we can use, only public and default 
+
+
+8th Oct 2025
+=============
+
+    -> NOTE : You cannot make Top level classes as private and protected 
+
+        -> No Issues with public and default 
+
+    -> NOTE : it’s not good practice, to directly allow object to be changed like
+        in NewStudent and Teacher  
+
+    -> Using Access Modifier like private, we are not allowing to update object directly like earlier 
+
+    -> If we keep private then we cannot update object data directly (Good Practice)
+
+    -> If Updated is required then how ?
+
+        -> Setters & Getters 
+
+    -> Encapsulation 
+
+        -> How Getters and Setters Facilitate Encapsulation:
+        
+        -> Data Hiding: Class variables are declared as private. 
+        This prevents direct access and modification of these variables 
+        from outside the class, effectively hiding the internal state of the object.
+
+
+        -> Controlled Access: Instead of direct access, public getter (accessor) and 
+            setter (mutator) methods are provided.
+    
+        -> Getter methods (e.g., getName()): retrieve the value of a private variable. 
+        They typically follow the naming convention get + VariableName 
+        (with the first letter of the variable name capitalized).
+        
+        -> Setter methods (e.g., setName(String name)): modify the value of a 
+        private variable. They typically follow the naming convention 
+        set + VariableName and take a parameter of the same type as the variable.
+
+
+        -> Validation and Business Logic: Setter methods offer a crucial point to 
+        implement validation rules or other business logic before a value is assigned. 
+        For example, a setAge() method could ensure that only 
+        positive age values are accepted.
+    
+        -> Flexibility and Maintainability: By using getters and setters, the internal 
+        implementation of a class can be changed without affecting external 
+        code that uses the class, as long as the method signatures remain consistent.
+
+
+
+    -> Constructor or Setters 
+
+        
