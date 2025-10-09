@@ -1176,3 +1176,57 @@ App Development
     -> Constructor or Setters 
 
         
+9th Oct 2025
+============
+
+    -> Abstraction 
+
+        -> In object-oriented programming (OOP), abstraction is the concept of hiding 
+        complex internal implementation details and displaying only the essential features 
+        or functionality of an object to the user. 
+        
+        -> Abstraction simplifies complex systems by breaking them into smaller, manageable components 
+        and provides a clear, simplified interface for interaction. 
+        
+        -> Abstraction is implemented using abstract classes and Interfaces
+
+        -> Encapsulation 
+
+            -> Bundling data (attributes) and the methods (functions) -> Class
+            -> Hiding Data -> private access & using setters & getters
+
+        -> Abstraction means hiding implementations (functionality / methods)
+
+            -> Interfaces & Abstract Classes
+
+    -> Interfaces 
+
+        -> Interface is a Blueprint of Class 
+            -> Class is a Blueprint of Object 
+            -> Object is instance of Class 
+
+            -> Interface -> Class -> Object 
+
+        -> Interfaces contain Abstract Methods
+
+            -> Abstract Methods : Methods without Implementation
+
+            -> Concrete Methods : Methods with Implementation
+
+        -> NOTE : Interfaces are like Contracts 
+
+        -> From Laptop Example Scenario
+
+            -> interface/contract Laptop (2020)
+
+            -> interface/contract Laptop (2025)
+
+                -> Now govt passed a mandate every laptop vendor should include bio metric auth
+
+        -> If above was the situation till Java 7, we need abstract classes 
+
+        -> From Java 8, we can add special methods in Interfaces 
+
+            -> Before Java 8 Interfaces, support only Abstract Methods  
+
+        -> default methods in interface provides partial Concrete implementation 
