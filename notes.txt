@@ -1230,3 +1230,41 @@ App Development
             -> Before Java 8 Interfaces, support only Abstract Methods  
 
         -> default methods in interface provides partial Concrete implementation 
+
+9th Oct 2025
+============
+
+    -> Abstract Classes 
+
+        -> An abstract class in Java is a class that is declared with the "abstract" keyword
+
+        -> It serves as a blueprint for other classes and cannot be instantiated directly, 
+            meaning you cannot create objects of an abstract class. 
+
+        -> Can contain abstract methods
+
+        -> Can contain concrete (non-abstract) methods
+
+        -> Abstract classes are extended by other classes using the extends keyword
+
+    -> LMS Application New Requirements to implement Abstraction
+
+        -> Interfaces (Personable.java, Payables.java)
+
+            -> Personable defines a contract for entities (like Student and Trainer)
+
+                -> managing their personal information
+
+            -> Payables defines a contract for entities that are involved in payment calculations
+
+                -> course fees for students, session payments for trainers
+
+        -> Abstract Class 
+
+            -> AbstractPerson serves as a base class to hold common attributes 
+            (like personID, personName, personAge, personMobileNumber)
+
+        -> Concrete Classes (Student.java, Trainer.java)
+
+            -> Student and Trainer classes now extend the AbstractPerson class, inheriting the 
+                common personal attributes and their management.
