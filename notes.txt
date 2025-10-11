@@ -1231,7 +1231,7 @@ App Development
 
         -> default methods in interface provides partial Concrete implementation 
 
-9th Oct 2025
+10th Oct 2025
 ============
 
     -> Abstract Classes 
@@ -1268,3 +1268,29 @@ App Development
 
             -> Student and Trainer classes now extend the AbstractPerson class, inheriting the 
                 common personal attributes and their management.
+
+11th Oct 2025
+=============
+
+    -> Polymorphism 
+
+        -> Polymorphism in OOP is the concept that an object can take on many forms, 
+        allowing different objects to be treated as a single type through a common interface, 
+        but each type provides its own independent implementation. 
+        
+        -> Polymorphism promotes code flexibility and extensibility 
+        by enabling a single method to have multiple behaviors,
+         often through method overloading and method overriding. 
+
+    -> Types Of Polymorphism
+
+        -> Compile Time Polymorphism
+
+            -> method overloading occurs during compile time
+            -> based on parameters passed to method
+            -> Number Of Parameters, Order Of Parameters, Type Of Parameters
+
+        -> Run Time Polymorphism
+
+            -> method overriding occurs during rune time
+            -> based on parent class implementation, provide new functionality in child class 
